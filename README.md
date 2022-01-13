@@ -13,7 +13,7 @@ This module is used to launch ElastiCache which includes the following resources
 
 # repo-name
 
-Repo link :- 
+Repo link :- https://github.com/kmsatyam/elasticache-module.git
 
 # Example
 
