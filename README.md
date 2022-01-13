@@ -15,6 +15,15 @@ This module is used to launch ElastiCache which includes the following resources
 
 Repo link :- 
 
+# Example
+
+```hcl
+module "elasticache-example" {                 
+  source                        = "github.com/kmsatyam/elasticache-module?ref=v0.1"
+  name                          = "elasticache"
+}
+```
+
 # Usage
 - A cluster is a collection of one or more cache nodes, all of which run an instance of the Memcached cache engine software. Most ElastiCache operations are performed at the cluster level. 
 - You can set up a cluster with a specific number of nodes and a parameter group that controls the properties for each node.
