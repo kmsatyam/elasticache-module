@@ -19,8 +19,17 @@ Repo link :-
 
 ```hcl
 module "elasticache-example" {                 
-  source                        = "github.com/kmsatyam/elasticache-module?ref=v0.1"
-  name                          = "elasticache"
+  source                           = "github.com/kmsatyam/elasticache-module?ref=v0.1"
+  name                             = "elasticache"
+  cluster_create                   =  false 
+  global_replication_group_create  =  false
+  parameter_group_create           =  false
+  replication_group_create         =  false
+  security_group_create            =  false
+  subnet_group_create              =  false
+  user_create                      =  false
+  user_group_create                =  false
+  
 }
 ```
 
